@@ -15,11 +15,11 @@ def encode():
     return render_template('encode.html')
 
 @app.route('/create')
-def encode():
+def create():
     return render_template('create.html')
 
 @app.route('/login')
-def encode():
+def login():
     return render_template('login.html')
 
 if __name__ == '__main__':
